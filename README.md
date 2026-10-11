@@ -4,7 +4,9 @@ A small, free passport photo cropping tool that runs entirely in the browser.
 
 **Use it:** https://pascalwhoop.github.io/passport-face-cropper/
 
-Drop in a JPG, PNG, or WebP, mark your head and chin, adjust the crop, and download a JPG. Includes US 2 × 2-inch and UK 35 × 45-mm printed-photo templates, an eye-level guide, free positioning, and keyboard nudging.
+Drop in a JPG, PNG, or WebP, mark your head and chin, adjust the crop, and download a JPG. Includes US 2 × 2-inch, UK 35 × 45-mm, German 35 × 45-mm, Spanish 26 × 32-mm, Canadian 50 × 70-mm, and Chinese 33 × 48-mm printed-photo templates. A general Europe 35 × 45-mm crop is provided as a starting point; European countries set their own head-size and digital-photo rules.
+
+Country templates only measure what their linked official guidance publishes. Spain’s linked guidance does not state a head-height range, so the cropper does not claim the photo passes that measurement. Check the authority’s rules for the exact application before printing or submitting. These templates do not change any photo pixels except by cropping and resizing.
 
 ## Privacy
 
@@ -27,6 +29,15 @@ GitHub Pages publishes the repository's `main` branch from `/`. The page include
 ## Templates
 
 Add templates in the `templates` object in `index.html`. Each template owns its crop dimensions, pixel output, head limits, and official source link.
+
+## Official photo-size references
+
+- US: [U.S. Department of State](https://travel.state.gov/en/passports/how-apply/photos.html)
+- UK: [HM Passport Office](https://www.gov.uk/photos-for-passports/photo-requirements)
+- Germany: [Federal Foreign Office](https://spanien.diplo.de/es-es/service/02-paesseausweise/2594622-2594622)
+- Spain: [Ministry of the Interior](https://www.interior.gob.es/opencms/es/servicios-al-ciudadano/tramites-y-gestiones/pasaporte/procedimiento-de-expedicion/)
+- Canada: [Immigration, Refugees and Citizenship Canada](https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-passports/photos.html)
+- China: [Government service guidance](https://gjzwfw.www.gov.cn/fwmh/item/v3/item_1110000000001301271001002002000.do)
 
 ## License
 
